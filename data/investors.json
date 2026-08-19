@@ -1,0 +1,640 @@
+[
+  {
+    "id": "inv-001",
+    "name": "Divya Iyer",
+    "email": "divya.iyer@example.com",
+    "budget": 76200000,
+    "preferredIndustries": [
+      "Logistics",
+      "Fintech",
+      "Travel & Hospitality"
+    ],
+    "riskPreference": "Low",
+    "expectedROI": 28,
+    "portfolio": [
+      {
+        "dealId": "deal-072",
+        "amount": 1200000,
+        "date": "2025-08-24T09:53:03.696Z"
+      },
+      {
+        "dealId": "deal-043",
+        "amount": 1300000,
+        "date": "2026-07-20T09:53:03.696Z"
+      },
+      {
+        "dealId": "deal-015",
+        "amount": 2000000,
+        "date": "2024-08-29T09:53:03.696Z"
+      },
+      {
+        "dealId": "deal-020",
+        "amount": 1200000,
+        "date": "2026-07-20T09:53:03.696Z"
+      },
+      {
+        "dealId": "deal-064",
+        "amount": 1900000,
+        "date": "2026-04-21T09:53:03.696Z"
+      },
+      {
+        "dealId": "deal-071",
+        "amount": 800000,
+        "date": "2025-01-26T09:53:03.696Z"
+      },
+      {
+        "dealId": "deal-045",
+        "amount": 1000000,
+        "date": "2026-03-22T09:53:03.696Z"
+      }
+    ],
+    "interests": [
+      "deal-056",
+      "deal-010",
+      "deal-005",
+      "deal-014",
+      "deal-023",
+      "deal-025"
+    ]
+  },
+  {
+    "id": "inv-002",
+    "name": "Ishita Nair",
+    "email": "ishita.nair@example.com",
+    "budget": 27600000,
+    "preferredIndustries": [
+      "Logistics",
+      "EdTech",
+      "Healthcare",
+      "Manufacturing"
+    ],
+    "riskPreference": "Moderate",
+    "expectedROI": 17,
+    "portfolio": [
+      {
+        "dealId": "deal-048",
+        "amount": 1700000,
+        "date": "2025-06-25T09:53:03.696Z"
+      },
+      {
+        "dealId": "deal-008",
+        "amount": 400000,
+        "date": "2025-01-26T09:53:03.696Z"
+      },
+      {
+        "dealId": "deal-021",
+        "amount": 200000,
+        "date": "2025-02-25T09:53:03.696Z"
+      }
+    ],
+    "interests": [
+      "deal-049",
+      "deal-005",
+      "deal-008",
+      "deal-047"
+    ]
+  },
+  {
+    "id": "inv-003",
+    "name": "Aditya Menon",
+    "email": "aditya.menon@example.com",
+    "budget": 8700000,
+    "preferredIndustries": [
+      "Logistics",
+      "Manufacturing"
+    ],
+    "riskPreference": "Low",
+    "expectedROI": 28,
+    "portfolio": [
+      {
+        "dealId": "deal-072",
+        "amount": 1000000,
+        "date": "2024-11-27T09:53:03.696Z"
+      },
+      {
+        "dealId": "deal-045",
+        "amount": 1100000,
+        "date": "2025-06-25T09:53:03.696Z"
+      },
+      {
+        "dealId": "deal-042",
+        "amount": 1600000,
+        "date": "2025-10-23T09:53:03.696Z"
+      },
+      {
+        "dealId": "deal-068",
+        "amount": 2000000,
+        "date": "2026-06-20T09:53:03.696Z"
+      },
+      {
+        "dealId": "deal-048",
+        "amount": 2000000,
+        "date": "2026-05-21T09:53:03.696Z"
+      },
+      {
+        "dealId": "deal-062",
+        "amount": 200000,
+        "date": "2025-07-25T09:53:03.696Z"
+      },
+      {
+        "dealId": "deal-070",
+        "amount": 1000000,
+        "date": "2024-08-29T09:53:03.696Z"
+      }
+    ],
+    "interests": [
+      "deal-054",
+      "deal-036",
+      "deal-039",
+      "deal-008",
+      "deal-013"
+    ]
+  },
+  {
+    "id": "inv-004",
+    "name": "Ishita Verma",
+    "email": "ishita.verma@example.com",
+    "budget": 17000000,
+    "preferredIndustries": [
+      "Logistics",
+      "Travel & Hospitality"
+    ],
+    "riskPreference": "Moderate",
+    "expectedROI": 12,
+    "portfolio": [
+      {
+        "dealId": "deal-050",
+        "amount": 1600000,
+        "date": "2025-10-23T09:53:03.696Z"
+      },
+      {
+        "dealId": "deal-057",
+        "amount": 2000000,
+        "date": "2025-10-23T09:53:03.696Z"
+      },
+      {
+        "dealId": "deal-018",
+        "amount": 900000,
+        "date": "2025-01-26T09:53:03.696Z"
+      }
+    ],
+    "interests": [
+      "deal-054",
+      "deal-049"
+    ]
+  },
+  {
+    "id": "inv-005",
+    "name": "Kavya Mehta",
+    "email": "kavya.mehta@example.com",
+    "budget": 45100000,
+    "preferredIndustries": [
+      "Travel & Hospitality",
+      "EdTech",
+      "Fintech"
+    ],
+    "riskPreference": "High",
+    "expectedROI": 17,
+    "portfolio": [
+      {
+        "dealId": "deal-065",
+        "amount": 300000,
+        "date": "2026-06-20T09:53:03.696Z"
+      },
+      {
+        "dealId": "deal-063",
+        "amount": 1100000,
+        "date": "2026-06-20T09:53:03.696Z"
+      },
+      {
+        "dealId": "deal-042",
+        "amount": 1200000,
+        "date": "2025-09-23T09:53:03.696Z"
+      }
+    ],
+    "interests": [
+      "deal-012",
+      "deal-033"
+    ]
+  },
+  {
+    "id": "inv-006",
+    "name": "Rahul Kapoor",
+    "email": "rahul.kapoor@example.com",
+    "budget": 49600000,
+    "preferredIndustries": [
+      "Logistics",
+      "Media & Entertainment",
+      "EdTech"
+    ],
+    "riskPreference": "High",
+    "expectedROI": 25,
+    "portfolio": [
+      {
+        "dealId": "deal-065",
+        "amount": 1100000,
+        "date": "2024-11-27T09:53:03.696Z"
+      },
+      {
+        "dealId": "deal-002",
+        "amount": 1200000,
+        "date": "2026-05-21T09:53:03.696Z"
+      },
+      {
+        "dealId": "deal-009",
+        "amount": 300000,
+        "date": "2024-09-28T09:53:03.696Z"
+      },
+      {
+        "dealId": "deal-014",
+        "amount": 1600000,
+        "date": "2024-09-28T09:53:03.696Z"
+      },
+      {
+        "dealId": "deal-035",
+        "amount": 1100000,
+        "date": "2025-03-27T09:53:03.696Z"
+      }
+    ],
+    "interests": [
+      "deal-010",
+      "deal-055",
+      "deal-064",
+      "deal-065"
+    ]
+  },
+  {
+    "id": "inv-007",
+    "name": "Ananya Rao",
+    "email": "ananya.rao@example.com",
+    "budget": 78900000,
+    "preferredIndustries": [
+      "E-commerce",
+      "EdTech"
+    ],
+    "riskPreference": "Moderate",
+    "expectedROI": 25,
+    "portfolio": [
+      {
+        "dealId": "deal-001",
+        "amount": 400000,
+        "date": "2025-11-22T09:53:03.696Z"
+      },
+      {
+        "dealId": "deal-008",
+        "amount": 400000,
+        "date": "2026-05-21T09:53:03.696Z"
+      },
+      {
+        "dealId": "deal-012",
+        "amount": 1200000,
+        "date": "2025-05-26T09:53:03.696Z"
+      },
+      {
+        "dealId": "deal-032",
+        "amount": 400000,
+        "date": "2025-08-24T09:53:03.696Z"
+      }
+    ],
+    "interests": [
+      "deal-040",
+      "deal-044",
+      "deal-053",
+      "deal-048",
+      "deal-055",
+      "deal-056"
+    ]
+  },
+  {
+    "id": "inv-008",
+    "name": "Arjun Reddy",
+    "email": "arjun.reddy@example.com",
+    "budget": 21400000,
+    "preferredIndustries": [
+      "SaaS",
+      "Healthcare",
+      "Real Estate"
+    ],
+    "riskPreference": "Moderate",
+    "expectedROI": 26,
+    "portfolio": [
+      {
+        "dealId": "deal-019",
+        "amount": 1500000,
+        "date": "2024-09-28T09:53:03.696Z"
+      },
+      {
+        "dealId": "deal-016",
+        "amount": 1800000,
+        "date": "2026-01-21T09:53:03.696Z"
+      },
+      {
+        "dealId": "deal-020",
+        "amount": 1000000,
+        "date": "2024-08-29T09:53:03.696Z"
+      },
+      {
+        "dealId": "deal-048",
+        "amount": 1800000,
+        "date": "2024-10-28T09:53:03.696Z"
+      }
+    ],
+    "interests": [
+      "deal-053",
+      "deal-012",
+      "deal-015",
+      "deal-021",
+      "deal-058"
+    ]
+  },
+  {
+    "id": "inv-009",
+    "name": "Divya Joshi",
+    "email": "divya.joshi@example.com",
+    "budget": 44300000,
+    "preferredIndustries": [
+      "Travel & Hospitality",
+      "AgriTech",
+      "Fintech"
+    ],
+    "riskPreference": "Moderate",
+    "expectedROI": 27,
+    "portfolio": [
+      {
+        "dealId": "deal-004",
+        "amount": 1500000,
+        "date": "2025-10-23T09:53:03.696Z"
+      },
+      {
+        "dealId": "deal-040",
+        "amount": 600000,
+        "date": "2024-08-29T09:53:03.696Z"
+      },
+      {
+        "dealId": "deal-002",
+        "amount": 1600000,
+        "date": "2025-10-23T09:53:03.696Z"
+      },
+      {
+        "dealId": "deal-041",
+        "amount": 900000,
+        "date": "2025-12-22T09:53:03.696Z"
+      },
+      {
+        "dealId": "deal-022",
+        "amount": 800000,
+        "date": "2024-08-29T09:53:03.696Z"
+      },
+      {
+        "dealId": "deal-019",
+        "amount": 1700000,
+        "date": "2025-05-26T09:53:03.696Z"
+      },
+      {
+        "dealId": "deal-032",
+        "amount": 1700000,
+        "date": "2026-05-21T09:53:03.696Z"
+      }
+    ],
+    "interests": [
+      "deal-046",
+      "deal-023",
+      "deal-067"
+    ]
+  },
+  {
+    "id": "inv-010",
+    "name": "Rahul Patel",
+    "email": "rahul.patel@example.com",
+    "budget": 64200000,
+    "preferredIndustries": [
+      "EdTech",
+      "Travel & Hospitality"
+    ],
+    "riskPreference": "Low",
+    "expectedROI": 25,
+    "portfolio": [
+      {
+        "dealId": "deal-021",
+        "amount": 800000,
+        "date": "2025-10-23T09:53:03.697Z"
+      },
+      {
+        "dealId": "deal-074",
+        "amount": 1000000,
+        "date": "2026-05-21T09:53:03.697Z"
+      },
+      {
+        "dealId": "deal-071",
+        "amount": 1100000,
+        "date": "2025-01-26T09:53:03.697Z"
+      },
+      {
+        "dealId": "deal-046",
+        "amount": 1300000,
+        "date": "2026-02-20T09:53:03.697Z"
+      },
+      {
+        "dealId": "deal-059",
+        "amount": 900000,
+        "date": "2026-01-21T09:53:03.697Z"
+      },
+      {
+        "dealId": "deal-027",
+        "amount": 700000,
+        "date": "2024-09-28T09:53:03.697Z"
+      },
+      {
+        "dealId": "deal-047",
+        "amount": 900000,
+        "date": "2025-06-25T09:53:03.697Z"
+      },
+      {
+        "dealId": "deal-004",
+        "amount": 400000,
+        "date": "2024-08-29T09:53:03.697Z"
+      }
+    ],
+    "interests": [
+      "deal-023",
+      "deal-029",
+      "deal-046",
+      "deal-047",
+      "deal-068"
+    ]
+  },
+  {
+    "id": "inv-011",
+    "name": "Aditya Gupta",
+    "email": "aditya.gupta@example.com",
+    "budget": 17000000,
+    "preferredIndustries": [
+      "Fintech",
+      "Healthcare",
+      "AgriTech",
+      "Logistics"
+    ],
+    "riskPreference": "Moderate",
+    "expectedROI": 23,
+    "portfolio": [
+      {
+        "dealId": "deal-041",
+        "amount": 900000,
+        "date": "2025-06-25T09:53:03.697Z"
+      },
+      {
+        "dealId": "deal-042",
+        "amount": 400000,
+        "date": "2026-05-21T09:53:03.697Z"
+      },
+      {
+        "dealId": "deal-077",
+        "amount": 200000,
+        "date": "2025-11-22T09:53:03.697Z"
+      },
+      {
+        "dealId": "deal-052",
+        "amount": 500000,
+        "date": "2024-11-27T09:53:03.697Z"
+      }
+    ],
+    "interests": [
+      "deal-064",
+      "deal-042",
+      "deal-043",
+      "deal-067"
+    ]
+  },
+  {
+    "id": "inv-012",
+    "name": "Arjun Kapoor",
+    "email": "arjun.kapoor@example.com",
+    "budget": 50700000,
+    "preferredIndustries": [
+      "Logistics",
+      "Fintech"
+    ],
+    "riskPreference": "Moderate",
+    "expectedROI": 25,
+    "portfolio": [
+      {
+        "dealId": "deal-049",
+        "amount": 1900000,
+        "date": "2024-09-28T09:53:03.697Z"
+      },
+      {
+        "dealId": "deal-038",
+        "amount": 900000,
+        "date": "2024-08-29T09:53:03.697Z"
+      },
+      {
+        "dealId": "deal-071",
+        "amount": 1600000,
+        "date": "2026-06-20T09:53:03.697Z"
+      },
+      {
+        "dealId": "deal-053",
+        "amount": 1200000,
+        "date": "2026-02-20T09:53:03.697Z"
+      },
+      {
+        "dealId": "deal-032",
+        "amount": 1000000,
+        "date": "2025-03-27T09:53:03.697Z"
+      },
+      {
+        "dealId": "deal-077",
+        "amount": 1000000,
+        "date": "2025-01-26T09:53:03.697Z"
+      }
+    ],
+    "interests": [
+      "deal-052",
+      "deal-010"
+    ]
+  },
+  {
+    "id": "inv-013",
+    "name": "Rahul Sharma",
+    "email": "rahul.sharma@example.com",
+    "budget": 17000000,
+    "preferredIndustries": [
+      "Travel & Hospitality",
+      "Fintech"
+    ],
+    "riskPreference": "High",
+    "expectedROI": 19,
+    "portfolio": [
+      {
+        "dealId": "deal-021",
+        "amount": 1000000,
+        "date": "2025-03-27T09:53:03.697Z"
+      },
+      {
+        "dealId": "deal-046",
+        "amount": 400000,
+        "date": "2026-05-21T09:53:03.697Z"
+      },
+      {
+        "dealId": "deal-070",
+        "amount": 900000,
+        "date": "2026-03-22T09:53:03.697Z"
+      },
+      {
+        "dealId": "deal-036",
+        "amount": 1100000,
+        "date": "2025-10-23T09:53:03.697Z"
+      },
+      {
+        "dealId": "deal-025",
+        "amount": 400000,
+        "date": "2025-08-24T09:53:03.697Z"
+      },
+      {
+        "dealId": "deal-075",
+        "amount": 200000,
+        "date": "2024-09-28T09:53:03.697Z"
+      }
+    ],
+    "interests": [
+      "deal-073",
+      "deal-044",
+      "deal-019"
+    ]
+  },
+  {
+    "id": "inv-014",
+    "name": "Rahul Menon",
+    "email": "rahul.menon@example.com",
+    "budget": 36900000,
+    "preferredIndustries": [
+      "Fintech",
+      "Healthcare",
+      "Logistics"
+    ],
+    "riskPreference": "High",
+    "expectedROI": 22,
+    "portfolio": [
+      {
+        "dealId": "deal-015",
+        "amount": 300000,
+        "date": "2026-07-20T09:53:03.697Z"
+      },
+      {
+        "dealId": "deal-022",
+        "amount": 300000,
+        "date": "2025-01-26T09:53:03.697Z"
+      },
+      {
+        "dealId": "deal-021",
+        "amount": 1000000,
+        "date": "2025-12-22T09:53:03.697Z"
+      }
+    ],
+    "interests": [
+      "deal-068",
+      "deal-003",
+      "deal-026"
+    ]
+  }
+]
