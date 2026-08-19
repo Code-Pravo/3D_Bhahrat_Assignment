@@ -54,7 +54,7 @@ export function InvestDealModal({
     >
       {confirmed ? (
         <div className="flex flex-col items-center py-4 text-center">
-          <CheckCircle className="h-12 w-12 text-emerald-500" aria-hidden />
+          <CheckCircle2 className="h-12 w-12 text-emerald-500" aria-hidden />
           <p className="mt-3 text-sm text-slate-600 dark:text-slate-300">
             {formatINR(amount)} allocated to {deal.companyName}. Projected value at exit:{" "}
             <span className="font-semibold text-slate-900 dark:text-slate-100">

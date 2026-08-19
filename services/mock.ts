@@ -6,14 +6,17 @@ export function randomLatency(): number {
 }
 
 /**
- * Wraps a synchronous resolver in a Promise with a simulated network delay,
+ * Wraps a resolver (sync or async) in a Promise with a simulated network delay,
  * mirroring the behaviour of a backend API call.
  */
-export function simulate<T>(resolver: () => T, latency = randomLatency()): Promise<T> {
+export function simulate<T>(
+  resolver: () => T | Promise<T>,
+  latency = randomLatency(),
+): Promise<T> {
   return new Promise<T>((resolve, reject) => {
-    window.setTimeout(() => {
+    window.setTimeout(async () => {
       try {
-        resolve(resolver());
+        resolve(await resolver());
       } catch (error) {
         reject(error);
       }

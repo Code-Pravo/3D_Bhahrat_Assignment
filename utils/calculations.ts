@@ -16,7 +16,7 @@ export interface IndustrySlice {
  * Builds a bucketed monthly time-series (last `months` months) from a list of
  * dated records. `valueFor` extracts the numeric value for each record.
  */
-export function monthlySeries<T extends { date: string }>(
+export function monthlySeries<T extends { date?: string; createdAt?: string }>(
   records: T[],
   months: number,
   valueFor: (r: T) => number,
@@ -30,7 +30,8 @@ export function monthlySeries<T extends { date: string }>(
     const cursor = new Date(now.getFullYear(), now.getMonth() - i, 1);
     const end = new Date(cursor.getFullYear(), cursor.getMonth() + 1, 0, 23, 59, 59);
     const monthRecords = records.filter((r) => {
-      const d = new Date(r.date);
+      const raw = (r.date ?? r.createdAt) as string;
+      const d = new Date(raw);
       return d >= cursor && d <= end;
     });
     const sum = monthRecords.reduce((acc, r) => acc + valueFor(r), 0);
